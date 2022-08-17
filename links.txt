@@ -1,0 +1,17 @@
+https://www.atlassian.com/git/tutorials/what-is-version-control
+https://www.atlassian.com/git/tutorials/source-code-management
+https://www.atlassian.com/git/tutorials/what-is-git
+https://github.com/git-guides/git-init
+https://www.atlassian.com/git/tutorials/saving-changes
+https://www.atlassian.com/git/tutorials/saving-changes/git-commit
+https://www.atlassian.com/git/tutorials/inspecting-a-repository
+https://www.atlassian.com/git/tutorials/undoing-changes/git-reset
+https://git-scm.com/docs/git-restore
+https://www.atlassian.com/git/tutorials/undoing-changes/git-rm
+https://www.atlassian.com/git/tutorials/using-branches/git-checkout
+https://git-scm.com/docs/git-switch
+https://www.atlassian.com/git/tutorials/using-branches
+https://www.atlassian.com/git/tutorials/saving-changes/git-stash
+https://www.atlassian.com/git/tutorials/inspecting-a-repository/git-tag
+https://www.atlassian.com/git/tutorials/cherry-pick
+https://www.atlassian.com/git/tutorials/using-branches/git-merge
