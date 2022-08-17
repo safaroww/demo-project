@@ -1,0 +1,53 @@
+git init # create git repo
+git --version # show git version
+git add . # add all to stage
+git add <file> # add file to stage
+git add <file1> <file2> # add files to stage
+git restore -W . || <file1>... # remove files from work tree
+git restore -S . || <file1>.. .# remove files from stage
+git restore -W -S . || <file1>... # remove files from both of stage and work tree
+git commit -m "<message>" # commit changes at stage with message
+git switch <branch> # switch to other branch
+git switch -c <branch> # switch to new created branch which is clone of current
+git branch # show branch list
+git ls-files # show track list
+git rm --cached . || <file1>... # remove from track
+git branch -M <name> # change current branch name
+git branch -D <name> # delete branch
+git reset <commit_id> # remove until specified commit
+git reset head~3 # remove until last three commit
+git reset --soft head~3 # remove until last three commit
+git reset --hard head~3 # remove until last three commit
+git checkout <commit_id> # create detached head by special commit
+git checkout head~3 # create detached head by the last third commit
+git log # show git logs
+git status # show status
+git clone # download remote repository
+
+.gitignore file for make ignored specified files and directories by git
+
+
+git stash # clear and save the changes at stage and work tree
+git stash apply <index> # apply selected stash changes to branch
+git stash list # show the stashes
+git stash pop <index> # apply and delete the stash
+git stash drop <index> # delete stash without applying
+git stash clear # delete all stashes at stash list
+git tag <name> <commit_id> # set tag to selected commit
+git tag # show all tags
+git tag <name> <commit_id> -m "<message>" # set messaged to tagged commit
+git cherry-pick <commit_id> # apply selected commit changes to current branch
+git reflog # show the history of git events. We can create detached head by reflog id
+git merge <branch_name> # update and merge current branch based on selected branch
+
+
+git fetch # update all remote tracking branches
+git branch -a # show all branches
+git branch -r # show remote tracking branches
+git branch -vv # show branchs with details for see which branches are local tracking branch
+git branch --delete remotes <branch_name> # delete remote tracking branch
+git remote show <origin> # show info about remote branch name
+git ls-remote # show remote branches
+git push origin --delete test # delete remote branch
+git push --force origin <branch_name> # delete commit from remote branch
+git merge --abort 
